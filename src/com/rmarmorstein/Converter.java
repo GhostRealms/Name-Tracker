@@ -2,7 +2,6 @@ package com.rmarmorstein;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import mojang.api.profiles.HttpProfileRepository;
 import mojang.api.profiles.Profile;
 import mojang.api.profiles.ProfileCriteria;
 
