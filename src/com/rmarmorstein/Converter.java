@@ -2,9 +2,9 @@ package com.rmarmorstein;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.mojang.api.profiles.HttpProfileRepository;
-import com.mojang.api.profiles.Profile;
-import com.mojang.api.profiles.ProfileCriteria;
+import mojang.api.profiles.HttpProfileRepository;
+import mojang.api.profiles.Profile;
+import mojang.api.profiles.ProfileCriteria;
 
 public class Converter implements Runnable {
 	

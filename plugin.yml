@@ -1,0 +1,11 @@
+name: Name-Tracker
+description: Mojang UUID Tracker
+version: 0.0.1-a
+main: com.rmarmorstein.NameTracker
+website: Saesdev.com
+commands:
+  uuid:
+    description: Returns a User's Mojang UUID
+  name:
+    description: Track a users alternate accounts based on UUID
+    aliases: [nlup]
