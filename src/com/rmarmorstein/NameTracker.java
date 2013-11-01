@@ -9,7 +9,9 @@ public class NameTracker extends JavaPlugin {
 	public void onEnable() {
 		//TODO sql init
 		//TODO get the converter ready
-		//TODO something
+		getCommand("name").setExecutor(new nameCommand());
+		getCommand("uuid").setExecutor(new UUIDexe());
+		getServer().getPluginManager().registerEvents(new LoginListener(), this);
 	}
 	
 	@Override
